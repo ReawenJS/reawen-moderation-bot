@@ -10,7 +10,7 @@ module.exports.run = async (client, message, args) => {
 let reawEmbed = new Discord.MessageEmbed().setColor("f1f1f1").setFooter("Reawen bebeğim çok mükemmelsin :)").setTimestamp().setAuthor(message.member.displayName, message.author.avatarURL({dynamic: true}))
 let embed = reawEmbed;
 
-let member = message.mentions.members.cache.get() || message.guild.members.cache.get(args[0]);
+let member = message.mentions.members.first() || message.guild.members.cache.get(args[0]);
 let sebep = args.splice(1).join(" ") || "Sebep belirtilmedi!";
 
 if (!message.member.roles.cache.has(a.banSorumlusu) && !message.member.hasPermission("ADMINISTRATOR")) {
