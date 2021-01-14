@@ -23,7 +23,7 @@ Kick: **20**
 Jail: **15**
 Mute: **10**
 
-Her ceza sebepleri ile beraber sicil veritabanına kaydedilir. Sicil kayıtlarına bakmak için: **${a.prefix}sicil @Reawen/ReawenID
+Her ceza sebepleri ile beraber sicil veritabanına kaydedilir. Sicil kayıtlarına bakmak için: **${a.prefix}sicil @Reawen/ReawenID**
 `))
 return; 
 }
