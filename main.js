@@ -1,6 +1,7 @@
 const Discord = require("discord.js")    
 const client = new Discord.Client();      
 const config = require("./config.js") 
+const a = require("./config.js") 
 const fs = require("fs");
 const db = require("quick.db");                
 require('./util/Loader.js')(client);    
